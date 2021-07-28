@@ -1,0 +1,51 @@
+.back-ground{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: consolas;
+}
+
+.button-box{
+    background-color: #ffffff;
+    mix-blend-mode: multiply;
+}
+
+.button{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #999999;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    mix-blend-mode: multiply;
+}
+
+.button:hover{
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.button-box:hover{
+    mix-blend-mode: normal;
+    background-color: #2196f3;
+    box-shadow: 0 0 10px#2196f3, 0 0 40px#2196f3, 0 0 80px#2196f3;
+}
+
+.css-selector {
+    background: linear-gradient(180deg, #00ff0a, #00d0ff, #0032ff, #00fff6, #00ff0a);
+    background-size: 100% 10000%;
+
+    animation: Animation 30s ease infinite;
+}
+
+@keyframes Animation {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}

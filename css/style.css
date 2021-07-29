@@ -24,6 +24,7 @@
     overflow: hidden;
     transition: 0.2s;
     mix-blend-mode: multiply;
+    cursor: pointer;
 }
 
 .button:hover{
